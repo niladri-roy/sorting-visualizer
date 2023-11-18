@@ -15,8 +15,8 @@ function disableSortingBtn() {
   document.querySelector(".mergeSort").disabled = true;
   document.querySelector(".quickSort").disabled = true;
   document.querySelector(".selectionSort").disabled = true;
-  document.querySelector(".heapSort").disabled = true;
-  document.querySelector(".countingSort").disabled = true;
+  // document.querySelector(".heapSort").disabled = true;
+  // document.querySelector(".countingSort").disabled = true;
   // document.querySelector(".radixSort").disabled = true;
 }
 
@@ -27,8 +27,8 @@ function enableSortingBtn() {
   document.querySelector(".mergeSort").disabled = false;
   document.querySelector(".quickSort").disabled = false;
   document.querySelector(".selectionSort").disabled = false;
-  document.querySelector(".heapSort").disabled = false;
-  document.querySelector(".countingSort").disabled = false;
+  // document.querySelector(".heapSort").disabled = false;
+  // document.querySelector(".countingSort").disabled = false;
   // document.querySelector(".radixSort").disabled = false;
 }
 
